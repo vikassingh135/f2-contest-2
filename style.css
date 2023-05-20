@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+main{
+    margin: 5%;
+}
+
+span{
+    font-size: 22px;
+}
+
+button{
+    padding: 8px 30px;
+    font-size: 16px;
+
+}
+
+.card-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.add-user{
+    display: flex;
+    width: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card-container select{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+.cards{
+    width: 60vh;
+    margin: 20px 0;
+}
+
+
+.card{
+    margin-top: 5px;
+    padding: 10px;
+    display: grid;
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    border: 1px solid white;
+    /* border-radius: 20px; */
+    width: 80vh;
+    grid-template-columns: 1fr 3fr 5fr 2fr;
+}
+
+
+.add-user{
+    margin-top: 50px;
+    width: 100%;
+
+}
+
+
+.add-user-form{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    /* align-items: stretch; */
+    width: 100%;
+    margin-right: 30px;
+}
+
+input{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
